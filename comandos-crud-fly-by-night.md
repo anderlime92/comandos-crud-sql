@@ -52,9 +52,39 @@ VALUES(
 INSERT INTO lojas (nome)
 VALUES('Casas Bahia');
 INSERT INTO lojas (nome)
-VALUES('S hopping Zona Leste');
+VALUES('Shopping Zona Leste');
 INSERT INTO lojas (nome)
 VALUES('Bazar das Coisas');
 INSERT INTO lojas (nome)
 VALUES('Americanas');
+```
+
+## INSERT na tabela Lojas-Produtos
+
+Esta é uma tabela intermediária (também conhecida como **tabela pivot**), ou seja, ela se relaciona com outras duas tabelas: **produtos** e **lojas** através de chaves estrangeiras.
+
+```sql
+INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(2, 1, 20);
+
+-- Insira também:
+-- Senhor dos Anéis na loja Americanas, com estoque 3
+-- TV Led no Shopping Zona Leste, com estoque 10
+-- Smartphone nas Casas Bahia, com estoque 5
+-- Smartphone na Americanas, com estoque 2
+```
+
+```sql
+INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(4, 2, 3);
+```
+
+```sql
+INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(2, 3, 10);
+```
+
+```sql
+INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(1, 1, 5);
+```
+
+```sql
+INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(4, 1, 2);
 ```
