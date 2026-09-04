@@ -30,3 +30,14 @@ VALUES(
     4 -- id do fornecedor Livraria
 );
 ```
+
+```sql
+INSERT INTO produtos (nome, descricao, preco, quantidade, fornecedor_id)
+VALUES(
+    'TV Led',
+    'Tela de 50 polegadas, resolução 4K, 4 entradas HDMI e etc e tal',
+    3420,
+    12,
+    1 -- id do fornecedor Eletônicos Tabajara
+);
+```
