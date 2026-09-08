@@ -92,5 +92,16 @@ VALUES(
     3
 );
 ```
+```sql
+INSERT INTO noticias(titulo, texto, imagem, destaque, usuario_id, categoria_id)
+VALUES(
+    ''
+    ''
+    ''
+    ''
+), (
+    ''
+    
+)
 
 ## INSERT na tabela noticias
