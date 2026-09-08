@@ -101,7 +101,50 @@ VALUES(
     ''
 ), (
     ''
-    
+
 )
 
-## INSERT na tabela noticias
+-- ## INSERT na tabela noticias
+
+```
+
+
+```sql
+UPDATE usuarios SET nome = 'Ananasta Valdecira'
+WHERE id = 1;
+```
+
+```sql
+UPDATE usuarios SET tipo = 'admin'
+WHERE id = 3;
+```
+
+```sql
+UPDATE usuarios SET tipo = 'editor'
+WHERE id = 2;
+```
+
+```sql
+UPDATE categoria SET nome = 'Variedades'
+WHERE id = 2;
+```
+
+```sql
+UPDATE usuarios SET tipo = 'admin'
+WHERE id = 3;
+```
+
+```sql
+UPDATE noticias SET titulo = 'O Abismo Transborda'
+WHERE id = 6;
+```
+
+```sql
+UPDATE noticia SET destaque = 'sim'
+WHERE id = 5;
+```
+
+```sql
+UPDATE categoria_id SET tipo = 2
+WHERE id = 3;
+```
