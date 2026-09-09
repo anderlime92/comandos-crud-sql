@@ -126,3 +126,4 @@ UPDATE lojas_produtos SET estoque = 4 WHERE loja_id = 2 AND produto_id = 1;
 ```sql
 DELETE FROM fornecedores WHERE id = 5;
 ```
+
