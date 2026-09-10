@@ -228,7 +228,7 @@ SELECT MAX(preco) AS maior_preco FROM produtos;
 
 ```sql
 SELECT 
-    count(*) AS quantidade_produtos,
+    COUNT(*) AS quantidade_produtos,
     MIN(preco)AS menor_preco,
     MAX(preco) AS maior_preco,
     ROUND(AVG(preco), 2) AS preco_medio
